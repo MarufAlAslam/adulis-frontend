@@ -58,3 +58,17 @@
 .topSelling.py-5 .card:hover {
     box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1);
 }
+
+/* signup */
+.signup-title {
+    font-size: 52px;
+    color: var(--green);
+    font-weight: 600;
+}
+
+.img-fluid.coffeeBeans {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+}
