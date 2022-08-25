@@ -17,8 +17,8 @@
 
 .img-fluid.leaves {
     position: absolute;
-    top: 65%;
-    left: 0;
+    top: 70%;
+    left: -150px;
     transform: translateY(-50%);
 }
 

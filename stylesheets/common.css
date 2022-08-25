@@ -68,3 +68,27 @@ header {
 .card {
     overflow: hidden;
 }
+
+
+/* footer */
+.bg-green {
+    background-color: var(--green);
+}
+
+.img-fluid.fLogo {
+    height: 40px;
+}
+
+.iconHolder {
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:hover {
+    color: white !important;
+}
