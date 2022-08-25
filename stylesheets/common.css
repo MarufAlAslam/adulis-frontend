@@ -2,6 +2,7 @@
     --green: #07733C;
     --white: #fff;
     --gray: #D7D7D7;
+    --border: hsla(0, 0%, 67%, 0.604)
 }
 
 * {
@@ -62,4 +63,8 @@ header {
 
 .countries a:hover {
     border-bottom: 3px solid var(--green);
+}
+
+.card {
+    overflow: hidden;
 }

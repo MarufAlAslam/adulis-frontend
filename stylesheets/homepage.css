@@ -21,3 +21,40 @@
     left: 0;
     transform: translateY(-50%);
 }
+
+
+/*  Top Selling Products */
+.section-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--green);
+    margin-bottom: 30px;
+}
+
+.topSelling.py-5 {
+    margin-top: 250px;
+}
+
+.btn-outline-green {
+    color: var(--green);
+    border: 2px solid var(--green);
+}
+
+.btn-outline-green:hover {
+    background-color: var(--green);
+    color: var(--white);
+    border: 2px solid var(--green);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.border-gray {
+    border: 1px solid var(--border);
+}
+
+.topSelling.py-5 .card:hover {
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1);
+}
