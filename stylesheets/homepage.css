@@ -84,3 +84,12 @@
     vertical-align: middle !important;
     display: inline;
 }
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.getProduct {
+    background-color: #E3F0D0;
+    padding: 100px 0;
+}
