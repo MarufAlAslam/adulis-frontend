@@ -92,3 +92,23 @@ header {
 footer a:hover {
     color: white !important;
 }
+
+.img-fluid.w-100 {
+    position: absolute;
+    top: -200px;
+}
+
+.footer.py-5.position-relative.bg-green {
+    margin-top: 200px;
+}
+
+.footer.py-5.position-relative.bg-green::before {
+    content: '';
+    background: #E3F0D0;
+    position: absolute;
+    top: -300px;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
