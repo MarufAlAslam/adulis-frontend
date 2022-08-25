@@ -1,3 +1,65 @@
+:root {
+    --green: #07733C;
+    --white: #fff;
+    --gray: #D7D7D7;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #E3F0D0;
+}
+
+.logo {
+    height: 30px;
+    position: relative;
+    top: -4px;
+}
+
+.btn-green {
+    border-radius: 0;
+    font-weight: 700;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.searchBox select {
+    max-width: 100px !important;
+    background-color: var(--gray);
+}
+
+.img-fluid.flagImg {
+    height: 30px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.number {
+    position: absolute;
+    top: -10px;
+    left: 55%;
+    transform: translateX(-50%);
+    background: white;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+}
+
+.countries a {
+    border-bottom: 3px solid transparent;
+}
+
+.countries a:hover {
+    border-bottom: 3px solid var(--green);
 }
