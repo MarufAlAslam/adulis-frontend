@@ -1,0 +1,23 @@
+.banner {
+    background-color: #E3F0D0;
+    padding-top: 100px !important;
+}
+
+.main-title {
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--green);
+}
+
+.img-fluid.overlay {
+    position: absolute;
+    bottom: -220px;
+    z-index: -1;
+}
+
+.img-fluid.leaves {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    transform: translateY(-50%);
+}
