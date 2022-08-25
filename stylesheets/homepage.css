@@ -72,3 +72,15 @@
     right: 0;
     height: 150px;
 }
+
+.fs-44 {
+    font-size: 44px;
+}
+
+.text-green.quote {
+    font-size: 100px;
+    font-family: roboto;
+    line-height: 10px;
+    vertical-align: middle !important;
+    display: inline;
+}
